@@ -1,0 +1,25 @@
+{
+  "mode": "bulk",
+  "constraints": {
+    "max_calories": 900,
+    "min_protein": 45,
+    "max_price": 50,
+    "max_qty": 3,
+    "max_items": 6
+  },
+  "items": [
+    {"code": "M001", "name": "巨无霸", "price": 23.5, "calories": 550, "protein": 27, "fat": 30, "carb": 45, "sodium": 1050},
+    {"code": "M002", "name": "板烧鸡腿堡", "price": 21.5, "calories": 430, "protein": 25, "fat": 17, "carb": 44, "sodium": 980},
+    {"code": "M003", "name": "麦辣鸡腿堡", "price": 22.5, "calories": 500, "protein": 24, "fat": 24, "carb": 50, "sodium": 1100},
+    {"code": "M004", "name": "麦香鱼", "price": 18.5, "calories": 380, "protein": 17, "fat": 16, "carb": 44, "sodium": 620},
+    {"code": "M005", "name": "双层吉士堡", "price": 17.0, "calories": 450, "protein": 24, "fat": 24, "carb": 39, "sodium": 1080},
+    {"code": "M006", "name": "麦乐鸡 5 块", "price": 13.5, "calories": 230, "protein": 14, "fat": 13, "carb": 17, "sodium": 540},
+    {"code": "M007", "name": "中薯条", "price": 12.5, "calories": 340, "protein": 4, "fat": 16, "carb": 44, "sodium": 210},
+    {"code": "M008", "name": "玉米杯 小", "price": 9.5, "calories": 120, "protein": 3, "fat": 2, "carb": 25, "sodium": 130},
+    {"code": "M009", "name": "可口可乐 中杯", "price": 11.0, "calories": 170, "protein": 0, "fat": 0, "carb": 43, "sodium": 30},
+    {"code": "M010", "name": "无糖可乐 中杯", "price": 11.0, "calories": 0, "protein": 0, "fat": 0, "carb": 0, "sodium": 35},
+    {"code": "M011", "name": "香芋派", "price": 10.5, "calories": 280, "protein": 3, "fat": 14, "carb": 36, "sodium": 160},
+    {"code": "M012", "name": "奥利奥麦旋风", "price": 14.0, "calories": 330, "protein": 8, "fat": 11, "carb": 49, "sodium": 210}
+  ],
+  "_note": "tests 目录下的模拟数据，数值为近似值，仅用于离线验证算法；真实数据以麦当劳 MCP 返回为准"
+}
